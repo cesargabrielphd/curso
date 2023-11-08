@@ -1,6 +1,12 @@
 # Praticar estatística
 Praticar o que aprendo no curso de Estatística pela UnB. Criar um projeto/trabalho real da área de estatística ou indique um site onde posso praticar
 
+## objetivo final 
+- Apresentar a análise descritiva completa aprendido em Estatistica Exploratória.
+- Tentar usar conhecimento de Metodos Estatísticos 1 e 2
+- Apresentar relatoria nível TCC em LaTeX, para aprender LaTeX.
+- Criar slide de apresentação nivel defesa de TCC para praticar.
+
 **Análise de dados do Censo Demográfico do IBGE**
 
 O Censo Demográfico do IBGE é um levantamento realizado a cada dez anos pelo Instituto Brasileiro de Geografia e Estatística (IBGE) para coletar dados sobre a população brasileira. Os dados coletados no Censo são utilizados para a elaboração de políticas públicas, planejamento urbano e tomada de decisões em geral.
