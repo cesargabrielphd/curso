@@ -2,12 +2,8 @@ def log(logaritimando, base):
     """
     log o logaritimando pela base
     """
-    if logaritimando <= 0 and base in [0, 1]:
-        return "O logaritimando deve ser maior que 0 e a base deve ser maior que 0 e diferente de 1"        
-    if logaritimando <= 0:
-        return "O logaritimando deve ser maior que 0"
-    if base in [0, 1]:
-        return "A base deve ser maior que 0 e diferente de 1"
+    if logaritimando <= 0 or base in [0, 1]:
+        return "Seu burro! O logaritimando deve ser maior que 0 e a base maior que 1."
     else:
         indice = 0 
         while logaritimando >= base:
@@ -16,10 +12,9 @@ def log(logaritimando, base):
             decomposto = indice
         return decomposto
 
-print(log(100, 10))
+print(  log(32, 2) )
 
-
-# Referência: 
+# Referência:
 #  - copilot in VSCode
 #  - google
 #  - Eu mesmo
