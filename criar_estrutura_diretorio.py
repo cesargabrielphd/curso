@@ -1,8 +1,11 @@
 import os
 import shutil
+import re
 
 # Função para criar a estrutura de diretórios e arquivos vazios
 def criar_estrutura(disciplina="disciplina-01"):
+    # Remover caracteres inválidos para nomes de diretórios no Windows
+    disciplina = re.sub(r'[<>:"/\\|?*]', '', disciplina)
     dirs = [
         f"{disciplina}/Estudos/conteúdos/bibliografia",
         f"{disciplina}/Estudos/conteúdos/teoria-leve",
