@@ -1,6 +1,27 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-.Renviron
-.Renviron.*
+*.Rproj
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+*.Renviron
+*.Renviron.*
+
+*.httr-oauth
+*.DS_Store
+*.quarto
+*.DBF
+*.xlsx
+*.xls
+
+
+Trabalho 1/dataProject
+Trabalho 1/data.Need.Project/
+
+Trabalho 2/dataProject
+Trabalho 2/dataProject/
+
+Atividaes/PadronTaxas/dataProject
+Atividaes/PadronTaxas/dataProject/
+
+
+SINGAGE.XLS

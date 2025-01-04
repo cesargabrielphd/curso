@@ -45,7 +45,7 @@ def deletar_estrutura(disciplinas):
 # Solicita ao usuário a ação desejada
 acao = input("Digite 'c' para criar uma disciplina ou 'd' para deletar uma disciplina: ").strip().lower()
 
-if acao == 'c':
+if acao in ['c', 'criar', 'create']:
     # Solicita os nomes das disciplinas ao usuário
     disciplinas_input = input("Digite os nomes das disciplinas separados por vírgula (ex: disciplina-01,disciplina-02): ")
     if not disciplinas_input.strip():
@@ -59,7 +59,7 @@ if acao == 'c':
         for disciplina in disciplinas:
             criar_estrutura(disciplina)
 
-elif acao == 'd':
+elif acao in ['d', 'deletar', 'delete']:
     # Solicita os nomes das disciplinas a serem deletadas
     disciplinas_input = input("Digite os nomes das disciplinas a serem deletadas separados por vírgula (ex: disciplina-01,disciplina-02): ")
     if not disciplinas_input.strip():
